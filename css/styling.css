@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body{
+	margin:0;
+	padding: 0;
+	height:50%;
+	width:100%;
+
+}
+html{
+	height:100%;
+	width:100%;
+
+}
+
+
+.main{
+	height:100%;
+	width:100%;
+	margin:auto;
+	background-image: url("http://static.ibnlive.in.com/ibnlive/pix/ibnhome/karnataka-iwif-2016.jpg");
+	display: table;
+	top:0;
+	background-size: cover;
+	padding: 0;
+
+
+}
+.inner .main{
+	display: table-cell;
+	vertical-align: middle;
+	width:100%;
+	max-width: none;
+	margin: auto;
+	padding: 0;
+}
+
+.content{
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Oswald';
+	margin-top: 10%;
+	
+}
+#card{
+	width: 40%;
+padding-bottom: 0;
+}
+.main1{
+	height:80%;
+	width:100%;
+	margin:0;
+	background-image: url("https://i.pinimg.com/originals/d7/fe/91/d7fe91e86dc2f7b144cbfd9c0050297e.jpg");
+	display: table;
+	top:0;
+	background-size: cover;
+	padding-top:0;
+	}
+.nav1{
+	color:  solid black;
+}
+.well{
+	font-family:'Raleway';}
+
+.h1
+{
+	text-align: 'right';
+}
