@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya|Merriweather');
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
+body
+{
+	height: 100%;
+	width: 100%;
+	}
+
+
 .main{
 	height:100vh;
 	width:100%;
@@ -42,8 +49,7 @@
  	}
  #about{
  	height: 100vh;
- 	
-	display: block;
+ 	display: block;
 	
  }
  .container-fluid
@@ -55,9 +61,8 @@
  .team_img{
  	margin-top: 0px;
  	width: 100% !important;
- 	height: 90vh;
- 	padding-right: 0px;
- 	margin-right: 0px;
+ 	height: 100vh;
+ 	
  }
 h2{
 font-family: 'Merriweather', serif;  
@@ -72,3 +77,4 @@ color: white ;
 	color: #F0F8FF;
 	font-weight: 200;
  }
+
