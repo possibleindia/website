@@ -54,27 +54,27 @@ body
  }
  .container-fluid
  {
- background-image: url('../images/Saffron.jpg');
+ 
  background-position: center;
  background-size: cover;
  }
  .team_img{
- 	margin-top: 0px;
- 	width: 100% !important;
- 	height: 100vh;
+ 	
+ 	width: 90% !important;
+ 	margin-top: 20px;
  	
  }
 h2{
 font-family: 'Merriweather', serif;  
-text-shadow: 4px 4px 4px #aaa;
-color: white ;
+padding-bottom: 0;
+color: solid black ;
 	 }
 
 #define
 {
 	font-family: 'Alegreya', serif;
 	font-size: 20px;
-	color: #F0F8FF;
+	color:solid black;
 	font-weight: 200;
  }
 
