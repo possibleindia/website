@@ -1,18 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya|Merriweather');
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
-body
-{
-	height: 100%;
-	width: 100%;
-	}
-
-
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Kaushan+Script');
 .main{
 	height:100vh;
 	width:100%;
 	margin:auto;
-	background-image: url('../images/back1.jpg');
-	display: block;
+	background-color: black;
+	
 	top:0;
 	background-size: cover;
 	opacity: 1;
@@ -20,12 +14,6 @@ body
 	background-position: center;
 	background-repeat: no-repeat;
 
-}
-.content
-{
-	margin-top:-500px;
-	color: black;
-	opacity: 1 !important;
 }
 .bg-light
 {
@@ -46,31 +34,21 @@ body
  .navbar-toggler
  {
  	background-color: white !important;
+ }
+ h1
+  {
+font-family: 'Kaushan Script', cursive;
+color: white;
+font-size: 5rem;
+ }
+ .list{
+ 	color: white;
+ 	font-family: 'Kaushan Script', cursive;
+ 	font-size: 1.3rem;
+ }
+ .alt
+ {
+ 	color: white;
  	}
- #about{
- 	height: 100vh;
- 	display: block;
- 			
- }
-	
-
-.team_img{
- 	
- 	width: 90% !important;
- 	margin-top: 20px;
- 	
- }
-h2{
-font-family: 'Merriweather', serif;  
-padding-bottom: 0;
-color: solid black ;
-	 }
-
-#define
-{
-	font-family: 'Alegreya', serif;
-	font-size: 20px;
-	color:solid black;
-	font-weight: 200;
- }
+		
 
