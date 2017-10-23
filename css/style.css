@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya|Merriweather');
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Kaushan+Script');
 body {
     height: 100%;
     width: 100%;
@@ -49,9 +50,10 @@ section {
     height: 60vh;
 }
 h2 {
-    font-family: 'Merriweather', serif;
-    padding-bottom: 0;
-    color: solid black;
+  font-family: 'Kaushan Script', cursive;
+color: white;
+font-size: 3rem;
+position: relative;
 }
 #define {
     font-family: 'Alegreya', serif;
@@ -292,3 +294,15 @@ h2 {
         float: none;
     }
 }
+#define
+{
+	font-family:' Merriweather';
+	color: white;
+	font-size: 1rem;
+}
+#about
+{
+	height: 100vh;
+	width: 100%;
+	background-color: black;
+}	
