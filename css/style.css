@@ -49,17 +49,20 @@ section {
     margin-top: 20px;
     height: 60vh;
 }
+.about_head{
+	margin-top:20px;
+	color: white;
+}
 h2 {
   font-family: 'Kaushan Script', cursive;
-color: white;
-font-size: 3rem;
+font-size: 2rem;
 position: relative;
 }
 #define {
-    font-family: 'Alegreya', serif;
-    font-size: 15px;
-    color: solid black;
     font-weight: 200;
+    font-family:' Merriweather';
+	color: white;
+	font-size: 1rem;
 }
 .team_header {
     margin-top: 50px;
@@ -92,7 +95,7 @@ position: relative;
     margin: 70vh 0 0 -40px;
 }
 .arrow_margin2 {
-    background-color: red;
+    background-color: transparent;
     margin: 30px 0 0 -40px;
 }
 /*animated scroll arrow animation*/
@@ -136,10 +139,29 @@ position: relative;
         opacity: 0;
     }
 }
+@media screen and (min-width: 600px) and (max-width: 700px)
+{
+	#define{
+		font-size: 15px;
+		margin-top: 15px;
+	}
+}
 @media screen and (max-width: 600px) {
     .ca3-scroll-down-arrow {
         display: none;
     }
+}
+@media screen and (min-width: 600px) and (max-width: 850px) {
+    .arrow_margin2 {
+    background-color: transparent;
+    margin: 0px 0 0 -40px;
+}
+}
+@media screen and (min-width: 851px) and (max-width: 1000px) {
+    .arrow_margin2 {
+    background-color: transparent;
+    margin: 10px 0 0 -40px;
+}
 }
 /*footer*/
 
@@ -293,12 +315,6 @@ position: relative;
     .footer-distributed form button {
         float: none;
     }
-}
-#define
-{
-	font-family:' Merriweather';
-	color: white;
-	font-size: 1rem;
 }
 #about
 {
