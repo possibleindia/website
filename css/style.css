@@ -53,10 +53,11 @@ section {
 	margin-top:20px;
 	color: white;
 }
-h2 {
+#heading {
   font-family: 'Kaushan Script', cursive;
 font-size: 2rem;
 position: relative;
+color: black;
 }
 #define {
     font-weight: 200;
@@ -320,5 +321,17 @@ position: relative;
 {
 	height: 100vh;
 	width: 100%;
-	background-color: black;
-}	
+	background-image:  url('../images/back2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+#define
+{
+    color: black;
+}
+#team
+{
+    background-color: black;
+    }

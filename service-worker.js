@@ -13,7 +13,6 @@ var filesToCache = [
   '/images/line2.png',
   '/images/logo.JPG',
   '/images/rally.jpg',
-  '/images/street.JPG',
 ];
 
 self.addEventListener('install', function(e) {
