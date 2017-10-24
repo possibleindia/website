@@ -15,6 +15,7 @@ var filesToCache = [
   '/images/rally.jpg',
   '/favicons/android-icon-192x192.png',
   '/favicons/ms-icon-144x144.png',
+  '/images/sai.jpg'
 ];
 
 self.addEventListener('install', function(e) {

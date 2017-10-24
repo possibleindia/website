@@ -23,7 +23,7 @@ section {
     opacity: 1;
     background-position: center;
     background-repeat: no-repeat;
-       filter: blur(1);
+    filter: blur(1);
 }
 .content {
     margin-top: -500px;
@@ -50,24 +50,53 @@ section {
     margin-top: 20px;
     height: 60vh;
 }
-.about_head{
-	margin-top:20px;
-	color: white;
+.about_head {
+    margin-top: 20px;
+    color: white;
 }
 #heading {
-  font-family: 'Kaushan Script', cursive;
-font-size: 2rem;
-position: relative;
-color: grey;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2rem;
+    position: relative;
+    color: grey;
 }
 #define {
     font-weight: 200;
-    font-family:' Merriweather';
-	color: white;
-	font-size: 1rem;
+    font-family: ' Merriweather';
+    color: white;
+    font-size: 1rem;
 }
 .team_header {
-    margin-top: 50px;
+    margin-top: 30px;
+    text-align: center;
+}
+.mem_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.mem1_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 5%;
+}
+.per_text {
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+    #hideonmob {
+        display: none;
+    }
+}
+@media screen and (min-width: 600px) {
+    #showonmob {
+        display: none;
+    }
+}
+.card-title,
+.card-text {
+    color: black !important;
 }
 /*Arrow Button*/
 
@@ -141,12 +170,11 @@ color: grey;
         opacity: 0;
     }
 }
-@media screen and (min-width: 600px) and (max-width: 700px)
-{
-	#define{
-		font-size: 15px;
-		margin-top: 15px;
-	}
+@media screen and (min-width: 600px) and (max-width: 700px) {
+    #define {
+        font-size: 15px;
+        margin-top: 15px;
+    }
 }
 @media screen and (max-width: 600px) {
     .ca3-scroll-down-arrow {
@@ -155,15 +183,15 @@ color: grey;
 }
 @media screen and (min-width: 600px) and (max-width: 850px) {
     .arrow_margin2 {
-    background-color: transparent;
-    margin: 0px 0 0 -40px;
-}
+        background-color: transparent;
+        margin: 0px 0 0 -40px;
+    }
 }
 @media screen and (min-width: 851px) and (max-width: 1000px) {
     .arrow_margin2 {
-    background-color: transparent;
-    margin: 10px 0 0 -40px;
-}
+        background-color: transparent;
+        margin: 10px 0 0 -40px;
+    }
 }
 /*footer*/
 
@@ -318,23 +346,41 @@ color: grey;
         float: none;
     }
 }
-#about
-{
-	height: 100vh;
-	width: 100%;
-	background-image:  url('../images/back2.jpg');
+#about {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/back2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-
-
 }
-#define
-{
+#define {
     color: grey;
 }
-#team
-{
+#team {
     background-color: black;
     color: white;
     font-family: 'Kaushan Script', cursive;
+}
+/*Mobile view team members cards*/
+
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+@media (max-width: 650px) {
+    .column {
+        width: 50%;
+        display: inline;
     }
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.container {
+    padding: 0 16px;
+}
+.title {
+    color: grey;
+}
