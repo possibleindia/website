@@ -30,8 +30,13 @@ section {
     color: black;
     opacity: 1 !important;
 }
+.navbar
+{
+    padding-bottom: 0;
+   
+}
 .bg-light {
-    background-color: transparent !important;
+    background-color:   #2F4F4F !important;
 }
 .nav-link {
     color: white !important;
