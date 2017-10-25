@@ -6,6 +6,12 @@ body {
     width: 100%;
     box-sizing: border-box;
 }
+section {
+    width: 100%;
+    display: table;
+    max-width: none;
+    height: 100vh;
+}
 .main{
 	height:40vh;
 	width:100%;
