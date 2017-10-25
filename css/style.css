@@ -16,7 +16,7 @@ section {
     height: 100vh;
     width: 100%;
     margin: auto;
-    background-image: url('../images/back1.jpg');
+    background-image: url('../images/back5.jpg');
     display: block;
     top: 0;
     background-size: cover;
@@ -36,14 +36,15 @@ section {
    
 }
 .bg-light {
-    background-color:   #2F4F4F !important;
+    /*background-color:   #2F4F4F !important;*/
+    background-color: #263238 !important;
 }
 .nav-link {
     color: white !important;
     font-family: 'Merriweather', serif;
 }
 .navbar-brand {
-    font-size: 30px;
+    font-size: 25px;
     color: white !important;
     font-family: 'Merriweather', serif;
 }
@@ -69,10 +70,10 @@ section {
     font-weight: 200;
     font-family: ' Merriweather';
     color: white;
-    font-size: 1rem;
+    font-size: 1.4em;
+    color: grey;
 }
 .team_header {
-    margin-top: 30px;
     text-align: center;
 }
 .mem_img {
@@ -106,7 +107,7 @@ section {
 /*Arrow Button*/
 
 .ca3-scroll-down-arrow {
-    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2hldnJvbl90aGluX2Rvd24iIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiBmaWxsPSJ3aGl0ZSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZD0iTTE3LjQxOCw2LjEwOWMwLjI3Mi0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwYzAuMjcsMC4yNjgsMC4yNzEsMC43MDEsMCwwLjk2OWwtNy45MDgsNy44M2MtMC4yNywwLjI2OC0wLjcwNywwLjI2OC0wLjk3OSwwbC03LjkwOC03LjgzYy0wLjI3LTAuMjY4LTAuMjctMC43MDEsMC0wLjk2OWMwLjI3MS0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwTDEwLDEzLjI1TDE3LjQxOCw2LjEwOXoiLz48L3N2Zz4=);
+    background-image: url(../images/chevron-sign-down.svg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -123,12 +124,12 @@ section {
     z-index: 100;
     text-decoration: none;
     text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
-    -webkit-animation: ca3_fade_move_down 2s ease-in-out infinite;
-    -moz-animation: ca3_fade_move_down 2s ease-in-out infinite;
-    animation: ca3_fade_move_down 2s ease-in-out infinite;
+    -webkit-animation: ca3_fade_move_down 1.5s ease-in-out infinite;
+    -moz-animation: ca3_fade_move_down 1.5s ease-in-out infinite;
+    animation: ca3_fade_move_down 1.5s ease-in-out infinite;
 }
 .arrow_margin1 {
-    margin: 70vh 0 0 -40px;
+    margin: 85vh 0 0 -40px;
 }
 .arrow_margin2 {
     background-color: transparent;
@@ -175,10 +176,9 @@ section {
         opacity: 0;
     }
 }
-@media screen and (min-width: 600px) and (max-width: 700px) {
+@media screen and (max-width: 600px){
     #define {
-        font-size: 15px;
-        margin-top: 15px;
+        font-size: 1.2em;
     }
 }
 @media screen and (max-width: 600px) {
@@ -192,10 +192,13 @@ section {
         margin: 0px 0 0 -40px;
     }
 }
-@media screen and (min-width: 851px) and (max-width: 1000px) {
+@media screen and (min-width: 760px) and (max-width: 1000px) {
     .arrow_margin2 {
         background-color: transparent;
         margin: 10px 0 0 -40px;
+    }
+    #define{
+        font-size: 1em;
     }
 }
 /*footer*/
@@ -208,7 +211,7 @@ section {
     font: bold 16px sans-serif;
     text-align: left;
     padding: 50px 60px 40px;
-    margin-top: 80px;
+    margin-top: 0px;
     overflow: hidden;
 }
 /* Footer left */
@@ -358,11 +361,8 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
 }
-#define {
-    color: grey;
-}
 #team {
-    background-color: black;
+    background-color: #212121;
     color: white;
     font-family: 'Kaushan Script', cursive;
 }
