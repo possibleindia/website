@@ -17,9 +17,9 @@ var filesToCache = [
   '/favicons/ms-icon-144x144.png',
   '/images/placeholder.jpg',
   '/images/chiranth.jpg',
-  'images/vinay B.jpg',
-  'images/suraj d.jpg',
-  'images/manoj desai.jpg'
+  '/images/vinay B.jpg',
+  '/images/suraj d.jpg',
+  '/images/manoj desai.jpg'
 ];
 
 self.addEventListener('install', function(e) {
