@@ -6,7 +6,7 @@ var filesToCache = [
   '/js/index.js',
   '/css/style.css',
   '/images/back1.jpg',
-  '/images/back2.JPG',
+  '/images/back2.jpg',
   '/images/bullet.jpg',
   '/images/line.png',
   '/images/line1.png',
@@ -15,7 +15,11 @@ var filesToCache = [
   '/images/rally.jpg',
   '/favicons/android-icon-192x192.png',
   '/favicons/ms-icon-144x144.png',
-  '/images/sai.jpg'
+  '/images/placeholder.jpg',
+  '/images/chiranth.jpg',
+  'images/vinay B.jpg',
+  'images/suraj d.jpg',
+  'images/manoj desai.jpg'
 ];
 
 self.addEventListener('install', function(e) {
