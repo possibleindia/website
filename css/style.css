@@ -7,7 +7,7 @@ body {
     box-sizing: border-box;
 }
 section {
-    width: 100%;
+    width: 100% ;
     display: table;
     max-width: none;
     height: 100vh;
@@ -16,7 +16,7 @@ section {
     height: 100vh;
     width: 100%;
     margin: auto;
-    background-image: url('../images/logo.png');
+    background-image: url('../images/logo.PNG');
     display: block;
     top: 0;
     background-size: 100% 100%;
@@ -24,11 +24,6 @@ section {
     background-position: center;
     background-repeat: no-repeat;
     filter: blur(1);
-}
-.content {
-    margin-top: -500px;
-    color: black;
-    opacity: 1 !important;
 }
 .navbar
 {

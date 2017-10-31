@@ -14,7 +14,7 @@ var filesToCache = [
   '/images/line.png',
   '/images/line1.png',
   '/images/line2.png',
-  '/images/logo.png',
+  '/images/logo.PNG',
   '/images/rally.jpg',
   '/favicons/android-icon-192x192.png',
   '/favicons/ms-icon-144x144.png',
