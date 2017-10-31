@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Kaushan+Script');
+body {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+section {
+    width: 100%;
+    display: table;
+    max-width: none;
+    height: 100vh;
+}
+.main{
+	height:12vh;
+	width:100%;
+	margin:auto;
+	top:0;
+	background-size: cover;
+	opacity: 1;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+.content {
+    margin-top: -500px;
+    color: black;
+    opacity: 1 !important;
+}
+.navbar
+{
+    padding-bottom: 0;
+   
+}
+.bg-light
+{
+	background-color:  #2F4F4F !important;
+}
+.nav-link 
+{   
+
+	color: white !important;
+	font-family: 'Merriweather', serif;  
+}
+.navbar-brand
+{
+	font-size: 30px;
+	color: white !important;
+	font-family: 'Merriweather', serif;  
+}
+ .navbar-toggler
+ {
+ 	background-color: white !important;
+ }
+ #heading {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2rem;
+    position: relative;
+    color: grey;
+}
+textarea{
+	width: 100%;
+	height: auto;
+}

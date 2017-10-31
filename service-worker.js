@@ -3,15 +3,18 @@ var cacheName = 'possibleindiacache';
 var filesToCache = [
   '/',
   '/index.html',
+  '/joinus.html',
+  '/events.html',
   '/js/index.js',
   '/css/style.css',
-  '/images/back1.jpg',
+  '/css/events.css',
+  '/css/join.css',
   '/images/back2.jpg',
   '/images/bullet.jpg',
   '/images/line.png',
   '/images/line1.png',
   '/images/line2.png',
-  '/images/logo.JPG',
+  '/images/logo.png',
   '/images/rally.jpg',
   '/favicons/android-icon-192x192.png',
   '/favicons/ms-icon-144x144.png',
@@ -19,7 +22,8 @@ var filesToCache = [
   '/images/chiranth.jpg',
   '/images/vinay B.jpg',
   '/images/suraj d.jpg',
-  '/images/manoj desai.jpg'
+  '/images/manoj desai.jpg',
+  '/images/chevron-sign-down.svg'
 ];
 
 self.addEventListener('install', function(e) {
