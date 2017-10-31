@@ -184,16 +184,28 @@ section {
 @media screen and (min-width: 600px) and (max-width: 850px) {
     .arrow_margin2 {
         background-color: transparent;
-        margin: 0px 0 0 -40px;
+        margin: 100px 0 0 -40px;
     }
 }
 @media screen and (min-width: 760px) and (max-width: 1000px) {
     .arrow_margin2 {
         background-color: transparent;
-        margin: 10px 0 0 -40px;
+        margin: 100px 0 0 -40px;
     }
     #define{
         font-size: 1em;
+    }
+}
+@media screen and (min-width: 1001px) and (max-width: 1200px){
+    .arrow_margin2{
+        background-color: transparent;
+        margin: 100px 0 0 -40px;
+    }
+}
+@media screen and (min-width: 1201px){
+    .arrow_margin2{
+        background-color: transparent;
+        margin: 300px 0 0 -40px;
     }
 }
 /*footer*/
