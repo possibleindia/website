@@ -4,26 +4,25 @@
 body {
     height: 100%;
     width: 100%;
-    box-sizing: border-box;
+    
 }
-section {
-    width: 100%;
-    display: table;
-    max-width: none;
-    height: 100vh;
+
+  
+.heading
+{
+	 color: black;
+	 font-size: 100px;
+	text-align: center;
+	padding-top: 4rem;
+    font-family: 'Kaushan Script', cursive;
 }
 .main{
-	height:40vh;
+
 	width:100%;
 	margin:auto;
-	background-color: black;
 	
 	top:0;
-	background-size: cover;
-	opacity: 1;
-
-	background-position: center;
-	background-repeat: no-repeat;
+	
 
 }
 .navbar
@@ -53,7 +52,36 @@ section {
  }
 
 
+.card-title{
+	font-family: 'Kaushan Script', cursive;
+}
+.card-text
+{
+	font-family: 'Kaushan Script', cursive;
+}
+.card
+{
+	margin-bottom: 12px;
+}
+
+.footer_logo{
+    height: 10%;
+    width: 10%;
+}
+
+.well
+{
+	height: 50vh;
+	background-image: url('../images/event.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
 
 
 
+#jumbo
+{
+	background-color:#FFF5EE;
 
+}
