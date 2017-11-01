@@ -10,10 +10,10 @@ body {
   
 .heading
 {
-	 color: black;
+	 color:white;
 	 font-size: 100px;
 	text-align: center;
-	padding-top: 4rem;
+	
     font-family: 'Kaushan Script', cursive;
 }
 .main{
@@ -32,7 +32,7 @@ body {
 }
 .bg-light
 {
-	background-color:  #2F4F4F !important;
+	background-color:#263238 !important;
 }
 .nav-link 
 {   
@@ -54,15 +54,22 @@ body {
 
 .card-title{
 	font-family: 'Kaushan Script', cursive;
+	color: white;
+	font-weight: 500;
 }
 .card-text
 {
 	font-family: 'Kaushan Script', cursive;
+	color: white;
+	font-weight: 600;
 }
 .card
 {
 	margin-bottom: 12px;
+	background-color: transparent;
+	border: none;
 }
+
 
 .footer_logo{
     height: 10%;
@@ -71,17 +78,18 @@ body {
 
 .well
 {
-	height: 50vh;
-	background-image: url('../images/event.jpg');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+	height: 40vh;
+background-color:	#E6E6FA;
 }
 
 
 
 #jumbo
 {
-	background-color:#FFF5EE;
+	
+	background-image: url('../images/event.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 
 }

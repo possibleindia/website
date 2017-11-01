@@ -63,7 +63,7 @@ section {
 }
 #define {
     font-weight: 200;
-    font-family: ' Merriweather';
+    font-family: 'Kaushan Script', cursive;
     color: white;
     font-size: 1.4em;
     color: grey;
@@ -352,7 +352,7 @@ section {
     background-size: cover;
 }
 #team {
-    background-color: #212121;
+    background-color:#001433;
     color: white;
     font-family: 'Kaushan Script', cursive;
 }
