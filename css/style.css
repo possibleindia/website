@@ -57,9 +57,10 @@ section {
 }
 #heading {
     font-family: 'Kaushan Script', cursive;
-    font-size: 2rem;
+    font-size: 3rem;
     position: relative;
     color: grey;
+    font-weight: 
 }
 #define {
     font-weight: 200;
