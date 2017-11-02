@@ -10,7 +10,7 @@ body {
   
 .heading
 {
-	 color:white;
+	 color:grey;
 	 font-size: 100px;
 	text-align: center;
 	
@@ -54,13 +54,13 @@ body {
 
 .card-title{
 	font-family: 'Kaushan Script', cursive;
-	color: white;
+	color: grey;
 	font-weight: 500;
 }
 .card-text
 {
 	font-family: 'Kaushan Script', cursive;
-	color: white;
+	color: grey;
 	font-weight: 600;
 }
 .card
@@ -68,6 +68,7 @@ body {
 	margin-bottom: 12px;
 	background-color: transparent;
 	border: none;
+	
 }
 
 
@@ -79,17 +80,15 @@ body {
 .well
 {
 	height: 40vh;
-background-color:	#E6E6FA;
-}
+background-image: url("../images/event.jpg");
+padding-top: 7rem;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
 
-
-
-#jumbo
-{
-	
-	background-image: url('../images/event.jpg');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+font-weight: 800;
 
 }
+
+
+
