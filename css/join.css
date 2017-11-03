@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya|Merriweather');
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
-@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 body {
     height: 100%;
     width: 100%;
@@ -23,6 +23,14 @@ section {
 	background-repeat: no-repeat;
 
 }
+.container{
+	background-image: url(../images/join.jpg);
+	background-repeat: no-repeat;
+	background-size: 45% 70%;
+	float: right;
+	background-position: right;
+	background-origin: content-box;
+}
 .navbar
 {
     padding-bottom: 0;
@@ -40,7 +48,7 @@ section {
 }
 .navbar-brand
 {
-	font-size: 30px;
+	font-size: 25px;
 	color: white !important;
 	font-family: 'Merriweather', serif;  
 }
@@ -49,12 +57,21 @@ section {
  	background-color: white !important;
  }
  #heading {
-    font-family: 'Kaushan Script', cursive;
-    font-size: 2rem;
+    font-family: 'Slabo 27px', serif;
+    font-size: 3rem;
     position: relative;
-    color: grey;
+    color: black;
 }
 textarea{
 	width: 100%;
 	height: auto;
+}
+@media screen and (max-width: 600px)
+{
+	.container{
+	background-image: none;
+}
+}
+label,button {
+	font-family: 'Merriweather', serif;
 }
