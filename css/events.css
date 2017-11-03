@@ -232,6 +232,9 @@ body {
     height: 10%;
     width: 10%;
 }
+#send:hover{
+cursor: pointer;
+}
 .well
 {
 	height: 40vh;

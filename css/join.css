@@ -38,7 +38,7 @@ section {
 }
 .bg-light
 {
-	background-color:  #2F4F4F !important;
+	background-color: #191919 !important;
 }
 .nav-link 
 {   
@@ -60,7 +60,8 @@ section {
     font-family: 'Slabo 27px', serif;
     font-size: 3rem;
     position: relative;
-    color: black;
+    color: #757575;
+    font-weight: bold;
 }
 textarea{
 	width: 100%;
