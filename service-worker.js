@@ -10,10 +10,6 @@ var filesToCache = [
   'css/events.css',
   'css/join.css',
   'images/back2.jpg',
-  'images/bullet.jpg',
-  'images/line.png',
-  'images/line1.png',
-  'images/line2.png',
   'images/logo.PNG',
   'images/rally.jpg',
   'favicons/android-icon-192x192.png',
@@ -23,7 +19,11 @@ var filesToCache = [
   'images/vinay B.jpg',
   'images/suraj d.jpg',
   'images/manoj desai.jpg',
-  'images/chevron-sign-down.svg'
+  'images/chevron-sign-down.svg',
+  'images/event.jpg',
+  'images/join.jpg',
+  'images/inaug.jpg',
+  'images/street.JPG'
 ];
 
 self.addEventListener('install', function(e) {
