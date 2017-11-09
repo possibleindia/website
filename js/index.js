@@ -26,4 +26,7 @@ if ('serviceWorker' in navigator) {
       });
     } // End if
   });
+  $('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
 });
