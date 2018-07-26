@@ -1,441 +1,162 @@
-/* Home Page CSS */
 
-.main
+/*CSS for mobile website*/
+
+.mobmain
 {
-	background-color: rgb(224, 224, 235);
-	margin: 0px;
+	margin: 0;
+	background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
-	.header
+.mainlogo
+{
+
+}
+
+	#logostyle
 	{
-    		/*background-color: black;*/
-    		/*background: linear-gradient(to right, orange , yellow);*/
-    		background: linear-gradient(to right, #485563 , #29323c);
-			height: 8vh;
-			width: 100vw;
+		width: 22vw;
+		height: 22vw;
+		margin-top: 8vh;
 	}
 
-		#logo
-		{
-			height: 5vh;
-			width: 5vh;
-			float: left;
-			padding:1.5vh 0vw 2vh 1vw;
-		}
-
-		#home
-		{
-			color: white;
-			float: left;
-			font-size: 2.8vh;
-			font-family: "HelveticaNeue-Thin";
-			padding: 2.2vh 3vw 3vw 5vh;
-		}		
-
-		#about
-		{
-			color: white;
-			float: left;
-			font-size: 2.8vh;
-			font-family: "HelveticaNeue-Thin";
-			padding: 2.2vh 3vw 3vw 2vh;
-		}
-
-		#events
-		{
-			color: white;
-			float: left;
-			font-size: 2.8vh;
-			font-family: "HelveticaNeue-Thin";
-			padding: 2.2vh 3vw 3vw 2vh;
-		}
-
-		#name
-		{
-			color: white;
-			float: right;
-			font-size: 3.5vh;
-			font-family: 'Righteous', cursive;
-			padding: 2vh 3vw 3vw 2vh;
-		}
-
-	.About
+	#titlem
 	{
-		background-image: url("images/pic2.png");
-		background-size: 100% 100%;
-		height: 90vh;
-		width: 100vw;
+		color: #29323c;
+		font-size: 4vh;
+		font-family:  'Righteous', cursive;
+		padding-top: 2vh;
 	}
 
-		#logoA
-		{
-			height: 20vh;
-			width: 20vh;
-			padding-top: 5vh;
-		}
-
-		#title
-		{
-
-			color: white;
-			font-size: 5vh;
-			font-family:  'Righteous', cursive;
-
-		}
-
-		#About
-		{
-			padding-top: 0vh;
-			font-size: 2.5vh;
-			font-family:"HelveticaNeue-Thin"; 
-			line-height: 4vh;
-			color: white;
-			padding-bottom: 5.5vh;
-		}
-
-		#button
-		{
-			padding-top: 1vh;
-			padding-bottom: 1vh;
-			font-family: 'Righteous', cursive;
-			color: white;
-			font-size: 2.7vh;
-			border: 1px solid white;
-    		border-radius: 20px 20px 20px 20px;
-    		width: 10vw;
-
-		}
-		a.buttl
-		{
-			text-decoration: none;
-			color: white;
-		}
-
-	.events
+	#Aboutm
 	{
-		height: 89vh;
-		width: 100vw;
-		/*background: linear-gradient(to right,#134E5E, #71B280);*/
-		overflow: hidden;
-		background: #F2994A;  /* fallback for old browsers */
-		background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
-		background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+		padding-top: 0vh;
+		font-size: 2.5vh;
+		font-family:"HelveticaNeue-Thin"; 
+		line-height: 4vh;
+		color: white; 
 	}
 
-		#events_heading
-		{
-			font-family: 'Francois One', sans-serif;
-			font-size: 5vh;
-			padding-top: 2vh;
-			margin-top: 0px;
-			color: black;
-		}
-
-			#inaugration
-			{
-				height: 80vh;
-				width: 33.3vw;
-				float: left;
-				padding: 2vh 0vw 0 0vw;
-				border-radius: 2px;
-			}
-
-				#inaugrationim
-				{
-					height: 32vh;
-					width: 33vw;
-					float: left;
-					padding-bottom: 3vh;
-					/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-				}
-
-				#inh
-				{
-					color: black;
-					font-family:  "HelveticaNeue";
-					font-weight: 10px;
-					font-size: 3.5vh;
-					padding-bottom: 0vh;
-					/*float: left;*/
-					/*font: bold;*/
-				}
-
-				#inb
-				{
-					font-size: 2.5vh;
-					font-family:"HelveticaNeue-Thin";
-					/*height: 5vh;*/
-					/*width: 25vw;*/
-					/*text-align: left !important;*/
-					line-height: 3.5vh;
-					color: white;
-					/*float: left;*/
-					padding-top: 2vh;
-					margin-left: 2vw;
-					margin-right: 2vw;
-				}
-
-			#rally
-			{
-				height: 80vh;
-				width: 33.3vw;
-				float: left;
-				padding:2vh 0vw 0 0;
-			}
-
-				#rallyim
-				{
-					height: 32vh;
-					width: 33vw;
-					float: left;
-					padding-bottom: 3vh;
-					margin-top: 6vh;
-					margin-left: 0.2vw;
-					/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-				}
-
-				#rah
-				{
-
-					color: black;
-					font-family:  "HelveticaNeue";
-					font-size: 3.5vh;
-					padding-bottom: 0vh;
-					/*float: left;*/
-					/*padding-left: 5vh;*/
-				}
-
-				#rab
-				{
-					font-size: 2.5vh;
-					font-family:"HelveticaNeue-Thin";
-					/*width: 33.3vw; */
-					line-height: 3.5vh;
-					color: white;
-					/*float: left;*/
-					/*border-left: 1.5px solid grey;*/
-					margin-left: 2vw;
-					margin-right: 2vw;
-					/*border-right: 1.5px solid grey;*/
-
-				}
-
-			#street
-			{
-				height: 80vh;
-				width: 33.3vw;
-				float: right;
-				padding:2vh 0vw 0 0;
-			}
-
-				#streetim
-				{
-					height: 32vh;
-					width: 33vw;
-					float: right;
-					padding-bottom: 3vh;
-					/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-				}
-
-				#sth
-				{
-					
-					color: black;
-					font-family:  "HelveticaNeue";
-					font-size: 3.5vh;
-					padding-bottom: 0vh;
-				}
-
-				#stb
-				{
-					font-size: 2.5vh;
-					font-family:"HelveticaNeue-Thin";
-					/*height: 80vh;*/
-					/*width: 33.3vw; */
-					/*text-align: right !important;*/
-					line-height: 3.5vh;
-					color: white;
-					padding-top: 2vh;
-					/*padding-right: 5vw;*/
-					/*border-left: 1.5px solid grey;*/
-					margin-left: 2vw;
-					margin-right: 2vw;
-					/*border-right: 1.5px solid grey;*/
-				}
-
-	.footer
+	#head
 	{
-		height: 38vh;
-		width: 100vw;
-		/*background-color: ;*/
-		background: linear-gradient(to right, #485563 , #29323c);
-		margin-top: 0vh;
-
+		font-family: 'Francois One', sans-serif;
+		font-size: 3.5vh;
+		padding-top: 6vh;
+		color: black;
 	}
 
-		#foot_title
-		{
-			color: white;
-			font-size: 3vh;
-			font-family:  'Righteous', cursive;
-			margin-top: 0px;
-			padding-top: 2.5vh;
-			/*margin-left: 3vw;*/
-			/*margin-right: 81vw;*/
-		}
+	#img1
+	{
+		height: 35vh;
+		width: 87vw;
+		padding-top: 4vh;
+	}
 
-		#fline
-		{
-			width: 100vw;
-			height: 2px;
-			background: white;
-			margin-bottom: 3vh;
-		}
+	#line1
+	{
+		font-family:"HelveticaNeue-Thin";
+		font-size: 2.5vh;
+		padding-top: 1vh;
+	}
 
-		#fright
-		{
-			width: 40vw;
-			float: right;
-		}
+	#img2
+	{
+		height: 35vh;
+		width: 87vw;
+		padding-top: 4vh;
+	}
 
+	#line2
+	{
+		font-family:"HelveticaNeue-Thin";
+		font-size: 2.5vh;
+		padding-top: 1vh;
+	}
 
-		#foot_social
-		{
-			height: 7vh;
-			/*width: 100vw;*/
-			padding: 0vh 0vw 0 2vw;
-			
-			
-		}
-			a.homef
-			{
-				font-size: 3vh;
-				color: white;
-				font-family: "HelveticaNeue-Thin";
-				padding: 0vh 3vw 0 5vw;
-				text-decoration: none;
-			}	
+	#img3
+	{
+		height: 35vh;
+		width: 87vw;
+		padding-top: 4vh;
+	}
 
-			a.aboutf
-			{
-				font-size: 3vh;
-				color: white;
-				font-family: "HelveticaNeue-Thin";
-				padding: 0vh 3vh 0 1vh;
-				text-decoration: none;
-			}
+	#line3
+	{
+		font-family:"HelveticaNeue-Thin";
+		font-size: 2.5vh;
+		padding-top: 1vh;
+		padding-bottom: 3vh;
+	}
 
-			a.eventsf
-			{
-				font-size: 3vh;
-				color: white;
-				font-family: "HelveticaNeue-Thin";
-				padding: 0vh 0vw 0 1.5vh;
-				text-decoration: none;
-			}	
+	#joinh
+	{
+		font-family: 'Francois One', sans-serif;
+		font-size: 3.5vh;
+		color: black;
+		padding-top: 2vh;
+	}
 
-		#optionsf
-		{
-			height: 7vh;
-			/*width: 33vw;*/
-			/*float: right;*/
-			padding: 3vh 7vw 0 2vw;
+	#Join
+	{
+		padding-top: 3vh;
+		padding-bottom: 3vh;
 
-		}
+	}
+	#headingm
+	{
+		font-size: 3vh;
+		font-family: "HelveticaNeue";
+		padding-bottom: 2vh;
+	}
 
-			.Facebook
-			{
-				height: 5vh;
-				width: 3.5vw;
-				float: right;
-				margin-right: 0vw;
+	#param
+	{
+		font-size: 2.5vh;
+		line-height: 4vh;
+		font-family:"HelveticaNeue-Thin";
+	}
 
-			}
+	#facebookm
+	{
+		width: 8vw;
+		height: 5vh;
+		/*float: left;*/
+		padding-right: 2vw;
+		display: inline-block;
+	}
 
-			.Instagram
-			{
-				height: 5vh;
-				width: 5vh;
-				float: right;
-				padding-right: 2vw;
-			}
+	#instagramm
+	{
+		width: 8vw;
+		height: 8vw;
+		/*float: left;*/
+		padding-right: 2vw;
+		display: inline-block;
+	}
 
-			.Youtube
-			{
-				height: 5vh;
-				width: 5vh;
-				float: right;
-				padding-right: 2vw;
-			}
+	#youtubem
+	{
+		width: 8vw;
+		height: 8vw;
+		/*float: left;*/
+		padding-right: 2vw;
+		display: inline-block;
+	}
 
-			.twitter
-			{
-				height: 5vh;
-				width: 3.5vw;
-				float: right;
-				margin-right: 2vw;
+	#twitterm
+	{
+		width: 8vw;
+		height: 8vw;
+		/*float: left;*/
+		display: inline-block;
+	}
 
-			}
-
-
-		#contactf
-		{
-			float: left;
-			text-align: left !important;
-			padding-top: 0vh;
-			padding-left: 0vw;
-			/*width: 33vw;*/
-		}
-
-			#coh
-			{
-				font-size: 3vh;
-				font-family: "HelveticaNeue-Thin";
-				color: white;
-				padding: 2.5vh 0 1vh 3vw;
-			}
-
-			#phone
-			{
-				font-size: 2vh;
-				font-family: "HelveticaNeue-Thin";
-				color: white;
-				padding: 0vh 0 0.5vh 3vw;
-			}
-
-			#Email
-			{
-				font-size: 2vh;
-				font-family: "HelveticaNeue-Thin";
-				color: white;
-				padding: 0vh 0 0.5vh 3vw;
-			}
-
-			#Address
-			{
-				font-size: 2vh;
-				font-family: "HelveticaNeue-Thin";
-				color: white;
-				padding: 0vh 0 0vh 3vw;
-			}
-
-		#buttonf
-		{
-			padding-top: 1vh;
-			padding-bottom: 1vh;
-			font-family: 'Righteous', cursive;
-			color: white;
-			font-size: 2.7vh;
-			border: 1px solid white;
-    		border-radius: 20px 20px 20px 20px;
-    		width: 15vw;
-    		margin-left: 8vw;
-
-		}
-
-		a.buttfl
-		{
-			text-decoration: none;
-			color: white;
-		}
+	#social
+	{
+		/*width: 50vw;*/
+		height: 10vh;
+		padding-top: 3vh;
+		align-content: center;
+		padding-bottom: 3vh;
+	}
