@@ -1,0 +1,342 @@
+/*CSS for team.html*/
+
+.main
+{
+	background-color: rgb(224, 224, 235);
+	margin: 0px;
+}
+
+	.header
+	{
+    	/*background-color: black;*/
+    	/*background: linear-gradient(to right, orange , yellow);*/
+    	background: linear-gradient(to right, #485563 , #29323c);
+		height: 8vh;
+		width: 100vw;
+	}
+
+		#logo
+		{
+			height: 5vh;
+			width: 5vh;
+			float: left;
+			padding:1.5vh 0vw 2vh 1vw;
+		}
+
+		#home
+		{
+			color: white;
+			float: left;
+			font-size: 2.8vh;
+			font-family: "HelveticaNeue-Thin";
+			padding: 2.2vh 3vw 3vw 5vh;
+		}		
+
+		#about
+		{
+			color: white;
+			float: left;
+			font-size: 2.8vh;
+			font-family: "HelveticaNeue-Thin";
+			padding: 2.2vh 3vw 3vw 2vh;
+		}
+
+		#events
+		{
+			color: white;
+			float: left;
+			font-size: 2.8vh;
+			font-family: "HelveticaNeue-Thin";
+			padding: 2.2vh 3vw 3vw 2vh;
+		}
+
+		#name
+		{
+			color: white;
+			float: right;
+			font-size: 3.5vh;
+			font-family: 'Righteous', cursive;
+			padding: 2vh 3vw 3vw 2vh;
+		}
+
+	.team
+	{
+		height: 85vh;
+		width: 100vw;
+		background: #F2994A;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	}
+
+		#heada
+		{
+			color: black;
+			font-family:  'Francois One', sans-serif;
+			font-weight: 10px;
+			font-size: 4.5vh;
+			padding-bottom: 0vh;
+			padding-top: 4vh;
+		}
+
+		#about2
+		{
+			font-family:"HelveticaNeue-Thin";
+			line-height: 4vh;
+			color: white;
+			font-size: 2.5vh;
+		}
+
+		.line11
+		{
+			height: 25vh;
+			
+		}
+
+		.line22
+		{
+			height: 25vh;
+			text-align: center;
+			padding-left: 4.2vw;
+			
+		}
+
+		#founder1
+		{
+			height: 17vh;
+			width: 17vh;
+			font-family:"HelveticaNeue-Thin";
+			/*float: left;*/
+			padding:0vh 5vw 4vh 0vw;
+			font-size: 2.5vh;
+			display: inline-block;
+		}
+
+		#founder2
+		{
+			height: 17vh;
+			width: 17vh;
+			font-family:"HelveticaNeue-Thin";
+			/*float: left;*/
+			padding: 0vh 5vw 0 0;
+			font-size: 2.5vh;
+			display: inline-block;
+		}
+
+		#founder3
+		{
+			height: 17vh;
+			width: 17vh;
+			font-family:"HelveticaNeue-Thin";
+			/*float: left;*/
+			padding: 2vh 0 0 0;
+			font-size: 2.5vh;
+			/*margin-right: 25vw;*/
+			display: inline-block;
+		}
+
+		#founder4
+		{
+			height: 17vh;
+			width: 17vh;
+			font-family:"HelveticaNeue-Thin";
+			/*float: left;*/
+			font-size: 2.5vh;
+			/*margin-left: 30vw;*/
+			padding: 0vh 5vw 0 0;
+			display: inline-block;
+		}
+
+		#founder5
+		{
+			height: 17vh;
+			width: 17vh;
+			font-family:"HelveticaNeue-Thin";
+			/*float: left;*/
+			font-size: 2.5vh;
+			padding: 0vh 5vw 0 0;
+			display: inline-block;
+		}
+
+		#founder6
+		{
+			height: 17vh;
+			width: 17vh;
+			font-family:"HelveticaNeue-Thin";
+			/*float: left;*/
+			font-size: 2.5vh;
+			padding: 0vh 5vw 0 0;
+			display: inline-block;
+		}
+
+	.footer
+	{
+		height: 38vh;
+		width: 100vw;
+		/*background-color: ;*/
+		background: linear-gradient(to right, #485563 , #29323c);
+		margin-top: 0vh;
+
+	}
+
+		#foot_title
+		{
+			color: white;
+			font-size: 3vh;
+			font-family:  'Righteous', cursive;
+			margin-top: 0px;
+			padding-top: 2.5vh;
+			/*margin-left: 3vw;*/
+			/*margin-right: 81vw;*/
+		}
+
+		#fright
+		{
+			width: 40vw;
+			float: right;
+			padding-right: 0;
+			padding-left: 2vw;
+		}
+
+		#fline
+		{
+			width: 100vw;
+			height: 2px;
+			background: white;
+			margin-bottom: 3vh;
+		}
+
+
+		#foot_social
+		{
+			height: 7vh;
+			/*width: 100vw;*/
+			padding: 0vh 0vw 0 2vw;
+			
+			
+		}
+			a.homef
+			{
+				font-size: 3vh;
+				color: white;
+				font-family: "HelveticaNeue-Thin";
+				padding: 0vh 2.2vh 0 1vh;
+				text-decoration: none;
+			}	
+
+			a.aboutf
+			{
+				font-size: 3vh;
+				color: white;
+				font-family: "HelveticaNeue-Thin";
+				padding: 0vh 2.2vh 0 1vh;
+				text-decoration: none;
+			}
+
+			a.eventsf
+			{
+				font-size: 3vh;
+				color: white;
+				font-family: "HelveticaNeue-Thin";
+				padding: 0vh 2vw 0 1.5vh;
+				text-decoration: none;
+			}	
+
+		#optionsf
+		{
+			height: 7vh;
+			/*width: 33vw;*/
+			/*float: right;*/
+			padding: 3vh 10vw 0 2vw;
+
+		}
+
+			.Facebook
+			{
+				height: 5vh;
+				width: 3.5vw;
+				float: right;
+				margin-right: 0vw;
+
+			}
+
+			.Instagram
+			{
+				height: 5vh;
+				width: 5vh;
+				float: right;
+				padding-right: 2vw;
+			}
+
+			.Youtube
+			{
+				height: 5vh;
+				width: 5vh;
+				float: right;
+				padding-right: 2vw;
+			}
+
+			.twitter
+			{
+				height: 5vh;
+				width: 3.5vw;
+				float: right;
+				margin-right: 2vw;
+
+			}
+
+
+
+		#contactf
+		{
+			float: left;
+			text-align: left !important;
+			padding-top: 0vh;
+			/*width: 33vw;*/
+		}
+
+			#coh
+			{
+				font-size: 3vh;
+				font-family: "HelveticaNeue-Thin";
+				color: white;
+				padding: 2.5vh 0 1vh 3vw;
+			}
+
+			#phone
+			{
+				font-size: 2vh;
+				font-family: "HelveticaNeue-Thin";
+				color: white;
+				padding: 0vh 0 0.5vh 3vw;
+			}
+
+			#Email
+			{
+				font-size: 2vh;
+				font-family: "HelveticaNeue-Thin";
+				color: white;
+				padding: 0vh 0 0.5vh 3vw;
+			}
+
+			#Address
+			{
+				font-size: 2vh;
+				font-family: "HelveticaNeue-Thin";
+				color: white;
+				padding: 0vh 0 0vh 3vw;
+			}
+
+		#buttonf
+		{
+			padding-top: 1vh;
+			padding-bottom: 1vh;
+			font-family: 'Righteous', cursive;
+			color: white;
+			font-size: 2.7vh;
+			border: 1px solid white;
+    		border-radius: 20px 20px 20px 20px;
+    		width:10vw;
+    			/*float: right;*/
+
+		}
