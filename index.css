@@ -32,7 +32,7 @@
 	#Aboutm
 	{
 		padding-top: 0vh;
-		font-size: 2.5vh;
+		font-size: 2vh;
 		font-family:"HelveticaNeue-Thin"; 
 		line-height: 4vh;
 		color: white; 
@@ -56,7 +56,7 @@
 	#line1
 	{
 		font-family:"HelveticaNeue-Thin";
-		font-size: 2.5vh;
+		font-size: 2vh;
 		padding-top: 1vh;
 	}
 
@@ -70,7 +70,7 @@
 	#line2
 	{
 		font-family:"HelveticaNeue-Thin";
-		font-size: 2.5vh;
+		font-size: 2vh;
 		padding-top: 1vh;
 	}
 
@@ -84,7 +84,7 @@
 	#line3
 	{
 		font-family:"HelveticaNeue-Thin";
-		font-size: 2.5vh;
+		font-size: 2vh;
 		padding-top: 1vh;
 		padding-bottom: 3vh;
 	}
@@ -105,22 +105,22 @@
 	}
 	#headingm
 	{
-		font-size: 3vh;
+		font-size: 2.5vh;
 		font-family: "HelveticaNeue";
 		padding-bottom: 2vh;
 	}
 
 	#param
 	{
-		font-size: 2.5vh;
+		font-size: 2vh;
 		line-height: 4vh;
 		font-family:"HelveticaNeue-Thin";
 	}
 
 	#facebookm
 	{
-		width: 8vw;
-		height: 8vw;
+		width: 9vw;
+		height: 9vw;
 		/*float: left;*/
 		padding-right: 2vw;
 		display: inline-block;
@@ -128,8 +128,8 @@
 
 	#instagramm
 	{
-		width: 8vw;
-		height: 8vw;
+		width: 9vw;
+		height: 9vw;
 		/*float: left;*/
 		padding-right: 2vw;
 		display: inline-block;
@@ -137,8 +137,8 @@
 
 	#youtubem
 	{
-		width: 8vw;
-		height: 8vw;
+		width: 9vw;
+		height: 9vw;
 		/*float: left;*/
 		padding-right: 2vw;
 		display: inline-block;
@@ -146,8 +146,8 @@
 
 	#twitterm
 	{
-		width: 8vw;
-		height: 8vw;
+		width: 9vw;
+		height: 9vw;
 		/*float: left;*/
 		display: inline-block;
 	}
