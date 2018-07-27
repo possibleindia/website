@@ -48,7 +48,7 @@
 
 	#img1
 	{
-		height: 35vh;
+		height: 50vw;
 		width: 87vw;
 		padding-top: 4vh;
 	}
@@ -62,7 +62,7 @@
 
 	#img2
 	{
-		height: 35vh;
+		height: 50vw;
 		width: 87vw;
 		padding-top: 4vh;
 	}
@@ -76,7 +76,7 @@
 
 	#img3
 	{
-		height: 35vh;
+		height:50vw;
 		width: 87vw;
 		padding-top: 4vh;
 	}
@@ -120,7 +120,7 @@
 	#facebookm
 	{
 		width: 8vw;
-		height: 5vh;
+		height: 8vw;
 		/*float: left;*/
 		padding-right: 2vw;
 		display: inline-block;
